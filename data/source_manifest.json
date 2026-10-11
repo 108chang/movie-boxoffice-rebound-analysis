@@ -1,0 +1,25 @@
+{
+  "scope": "public_portfolio",
+  "sha256": {
+    "candidate_sensitivity.csv": "a62b0cd9249966560f477b586efe34e42b6c1f9acbcf7ed3be6a89893ae0df1d",
+    "cine21_collection_log.csv": "5668c9bfce89314ef29af7e8edfb0bda6bd23702d27a94b2296f0be67fc255ec",
+    "cine21_movies.csv": "a9a72796eb32b5364f6826d820bacd0574bfb61bb8809679a5acfc8702f4abb9",
+    "cine21_supplement_audit.csv": "506564dea5369d352c4cd7db0ba77a566e1a1938b8e8069118434d09bc146c16",
+    "comparison_flow.csv": "eaf6172efdff8f40b2b7fc94f42b84f30ddea31cc689db9334cfb61b01d647b9",
+    "data_dictionary.csv": "51161f66af8c0301b54710f4dc9c8800bb1b0b4a2a3a2640cc412b322160a398",
+    "external_events.csv": "8d2c0c8ca2a50ce56d4575e95be68f4a82f95d70219306ea4a8640eddc077abf",
+    "external_evidence_coverage.csv": "6c5f9d1827fdbdfd2b112aa8b683c921ae8b2ac053f4f770a9a100beefe1ffc2",
+    "holiday_robust_candidates.csv": "97f4f28a23e841fb7eba16cc66ac00343411930afb75ccf8a0ba4010b6067069",
+    "kobis_daily_top10.csv": "3e4ff98b44b7d112da1465741b53eeea63f4eb5da0d05d6a4c53ae87532064fe",
+    "kobis_movie_identity.csv": "e8d577b7b0d371063415ea60b9342854f56a3385b9123f4b963fd69f74384c90",
+    "merged_movie_daily.csv": "f86b523736a1f9748a6f57568973b7dc6c765fbb381fe3c40719e2ad181a4f95",
+    "movie_attribute_eda.csv": "9b641c341f05c1de8e5946587906aca8befaaa734523452bbf20d7ca6d42105b",
+    "movie_comparison_denominators.csv": "74ebeec0aadc5478af2bd6a244c4cf32c7924307c16356c1cab8dc66f652cbe3",
+    "movie_daily_features.csv": "0a4863bf99ae37f0c196ba200e110a0c31ba5cf6a388aef195f9c4345c604390",
+    "movie_summary.csv": "50ab0efd62d64e1ae3122fe3342c872ab4b402e211353d6950c55d797e1b7e63",
+    "post_open_persistence.csv": "641bf4802d7f478a11dcc6f26eaadc928ba2e5c37eec5d34f2440281bc15acf9",
+    "rebound_candidates.csv": "d9992385f9ef84f2000e77c532ec442e7f5c0a169eff4f8ee894d8508da92989",
+    "target_exclusion_comparison.csv": "35388a6b7809aeb8dae8478df2967bcd5109725e0dda6107ebdb571962e57dd5",
+    "title_matching_audit.csv": "fd04f4b3635517045c7945e16637834bcc1778c760ae4e22ea9712c3a382309e"
+  }
+}

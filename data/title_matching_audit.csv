@@ -1,0 +1,18 @@
+﻿movieCd,movieNm,cine21_title,cine21_id,openDt,cine21_release_parsed,release_date_match,director,country,_merge,identity_status,kobis_detail_title,kobis_detail_open_date,kobis_directors,kobis_countries,director_crosscheck,country_crosscheck,manual_identity_note,kobis_detail_title_match,kobis_detail_release_match
+20255033,암살자(들),암살자(들),63054,2026-09-23,2026-09-23,True,허진호,한국,both,retrieved,암살자(들),20260923,허진호,한국,matches_reported_names,matches_reported_names,,True,True
+20256161,타짜: 벨제붑의 노래,타짜: 벨제붑의 노래,63246,2026-09-23,2026-09-23,True,최국희,한국,both,retrieved,타짜: 벨제붑의 노래,20260923,최국희,한국,matches_reported_names,matches_reported_names,,True,True
+20250654,오디세이,오디세이,62585,2026-08-05,2026-08-05,True,크리스토퍼 놀란,미국,both,retrieved,오디세이,20260805,크리스토퍼 놀란,미국,matches_reported_names,matches_reported_names,,True,True
+20256308,인턴,인턴,63356,2026-09-16,2026-09-16,True,김도영,한국,both,retrieved,인턴,20260916,김도영,한국,matches_reported_names,matches_reported_names,,True,True
+20266766,어벤져스: 엔드게임 앙코르,어벤져스: 엔드게임 앙코르,63397,2026-09-23,2026-09-23,True,안소니 루소 조 루소,미국,both,retrieved,어벤져스: 엔드게임 앙코르,20260923,안소니 루소 | 조 루소,미국,matches_reported_names,matches_reported_names,,True,True
+20254904,가능한 사랑,가능한 사랑,63333,2026-09-23,2026-09-23,True,이창동,한국,both,retrieved,가능한 사랑,20260923,이창동,한국,matches_reported_names,matches_reported_names,,True,True
+20265146,옵세션,옵세션,63337,2026-09-02,2026-09-02,True,커리 바커,미국,both,retrieved,옵세션,20260902,커리 바커,미국,matches_reported_names,matches_reported_names,,True,True
+20263870,레지던트 이블: 0번째 밤,레지던트 이블: 0번째 밤,63182,2026-09-17,2026-09-17,True,잭 크레거,미국,both,retrieved,레지던트 이블: 0번째 밤,20260917,잭 크레거,미국,matches_reported_names,matches_reported_names,,True,True
+20262770,스파이더맨: 브랜드 뉴 데이,스파이더맨: 브랜드 뉴 데이,63091,2026-07-29,2026-07-29,True,데스틴 크리튼,미국,both,retrieved,스파이더맨: 브랜드 뉴 데이,20260729,데스틴 다니엘 크리튼,미국,manual_alias_reviewed,matches_reported_names,중간 이름 생략 표기. 같은 영화 제목·개봉일·공식 Sony 감독 Destin Daniel Cretton으로 검토: https://www.sonypictures.com/movies/spidermanbrandnewday,True,True
+20264801,포가튼 아일랜드,포가튼 아일랜드,63267,2026-09-23,2026-09-23,True,조엘 크로포드 제뉴얼 메르카도,미국,both,retrieved,포가튼 아일랜드,20260923,조엘 크로포드 | 제뉴얼 메르카도,미국,matches_reported_names,matches_reported_names,,True,True
+20266051,바다 탐험대 옥토넛 어보브 앤 비욘드 : 두근두근 대자연 어드벤처,바다 탐험대 옥토넛 어보브 앤 비욘드 : 두근두근 대자연 어드벤처,63372,2026-09-23,2026-09-23,True,패트리스 베루베,영국,both,retrieved,바다 탐험대 옥토넛 어보브 앤 비욘드 : 두근두근 대자연 어드벤처,20260923,,영국,unverified_missing,matches_reported_names,,True,True
+20261807,극장판 치이카와: 인어 섬의 비밀,극장판 치이카와: 인어 섬의 비밀,63329,2026-09-30,2026-09-30,True,오이카와 케이,일본,both,retrieved,극장판 치이카와: 인어 섬의 비밀,20260930,오이카와 케이,일본,matches_reported_names,matches_reported_names,,True,True
+20224573,부활남: 더 레드,부활남: 더 레드,60614,2026-09-30,2026-09-30,True,백,한국,both,retrieved,부활남: 더 레드,20260930,백,한국,matches_reported_names,matches_reported_names,,True,True
+20266148,아버지의 집밥,,,2026-09-09,,False,,,left_only,retrieved,아버지의 집밥,20260909,이준익,한국,unverified_missing,unverified_missing,,True,True
+20262961,이방인,이방인,63362,2026-09-30,2026-09-30,True,프랑수아 오종,프랑스,both,retrieved,이방인,20260930,프랑수아 오종,프랑스,matches_reported_names,matches_reported_names,,True,True
+20264775,디거,디거,63400,2026-10-03,2026-10-03,True,알레한드로 곤잘레스 이냐리투,미국,both,retrieved,디거,20261003,알레한드로 곤잘레스 이냐리투,미국,matches_reported_names,matches_reported_names,,True,True
+20266850,극장판 래브라도: 망고축제를 지켜라,극장판 래브라도: 망고축제를 지켜라,63405,2026-10-03,2026-10-03,True,연나이융,중국,both,retrieved,극장판 래브라도: 망고축제를 지켜라,20261003,,중국,unverified_missing,matches_reported_names,,True,True

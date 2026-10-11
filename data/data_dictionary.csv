@@ -1,0 +1,83 @@
+﻿column,dtype,description
+rnum,int64,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+rank,int64,해당일 TOP10 순위 (위)
+rankInten,int64,API가 제공하는 전일 대비 순위 변화
+rankOldAndNew,object,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+movieCd,object,KOBIS 영화 코드; 시간 추적 기본 키
+movieNm,object,KOBIS 원본 영화명
+openDt,datetime64[ns],KOBIS 개봉일
+salesAmt,int64,해당일 매출 (원)
+salesShare,float64,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+salesInten,int64,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+salesChange,float64,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+salesAcc,int64,해당일까지 누적 매출 (원); 기간 합계로 더하지 않음
+audiCnt,int64,해당일 관객수 (명)
+audiInten,int64,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+audiChange,float64,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+audiAcc,int64,해당일까지 누적 관객수 (명); 기간 합계로 더하지 않음
+scrnCnt,int64,해당일 스크린수 (개)
+showCnt,int64,해당일 상영횟수 (회)
+date,datetime64[ns],관측 날짜 (KST)
+title_key,object,NFKC+소문자+공백/문장부호 정리한 영화명 결합 키
+cine21_title,object,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+cine21_rank,float64,수집 시점 Cine21 홈페이지 주간 순위; KOBIS 일별과 집계 기간 다름
+cine21_id,object,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+cine21_url,object,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+collected_at,object,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+cine21_rank_period,object,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+cine21_period_audience,float64,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+cine21_cumulative_audience,float64,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+genre,object,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+rating,object,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+runtime_min,float64,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+country,object,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+director,object,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+cine21_open_date,object,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+expert_score,float64,Cine21 전문가 평균 별점; 미평가=결측; 10점 만점
+expert_review_count,float64,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+cine21_release_parsed,datetime64[ns],원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+release_date_match,bool,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+audience_per_screen,float64,audiCnt/scrnCnt (명/개)
+audience_per_show,float64,audiCnt/showCnt (명/회); 좌석점유율 아님
+days_since_open,int64,관측일-개봉일 (일); 음수는 개봉 전
+weekday,int32,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+is_weekend,bool,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+rank_dod_base,float64,"정확한 비교일 원값; dod=1일 전, wow=7일 전; TOP10 미관측이면 결측"
+audiCnt_dod_base,float64,"정확한 비교일 원값; dod=1일 전, wow=7일 전; TOP10 미관측이면 결측"
+scrnCnt_dod_base,float64,"정확한 비교일 원값; dod=1일 전, wow=7일 전; TOP10 미관측이면 결측"
+showCnt_dod_base,float64,"정확한 비교일 원값; dod=1일 전, wow=7일 전; TOP10 미관측이면 결측"
+audience_per_screen_dod_base,float64,"정확한 비교일 원값; dod=1일 전, wow=7일 전; TOP10 미관측이면 결측"
+audience_per_show_dod_base,float64,"정확한 비교일 원값; dod=1일 전, wow=7일 전; TOP10 미관측이면 결측"
+rank_gain_dod,float64,비교일 순위 - 현재 순위; 양수=순위 개선; 정확한 1일/7일 전만 비교
+audiCnt_growth_dod_pct,float64,"(현재값 / 비교일값 - 1)×100 (%); dod=1일 전, wow=7일 전; 미관측/0분모=결측"
+scrnCnt_growth_dod_pct,float64,"(현재값 / 비교일값 - 1)×100 (%); dod=1일 전, wow=7일 전; 미관측/0분모=결측"
+showCnt_growth_dod_pct,float64,"(현재값 / 비교일값 - 1)×100 (%); dod=1일 전, wow=7일 전; 미관측/0분모=결측"
+audience_per_screen_growth_dod_pct,float64,"(현재값 / 비교일값 - 1)×100 (%); dod=1일 전, wow=7일 전; 미관측/0분모=결측"
+audience_per_show_growth_dod_pct,float64,"(현재값 / 비교일값 - 1)×100 (%); dod=1일 전, wow=7일 전; 미관측/0분모=결측"
+rank_wow_base,float64,"정확한 비교일 원값; dod=1일 전, wow=7일 전; TOP10 미관측이면 결측"
+audiCnt_wow_base,float64,"정확한 비교일 원값; dod=1일 전, wow=7일 전; TOP10 미관측이면 결측"
+scrnCnt_wow_base,float64,"정확한 비교일 원값; dod=1일 전, wow=7일 전; TOP10 미관측이면 결측"
+showCnt_wow_base,float64,"정확한 비교일 원값; dod=1일 전, wow=7일 전; TOP10 미관측이면 결측"
+audience_per_screen_wow_base,float64,"정확한 비교일 원값; dod=1일 전, wow=7일 전; TOP10 미관측이면 결측"
+audience_per_show_wow_base,float64,"정확한 비교일 원값; dod=1일 전, wow=7일 전; TOP10 미관측이면 결측"
+rank_gain_wow,float64,비교일 순위 - 현재 순위; 양수=순위 개선; 정확한 1일/7일 전만 비교
+audiCnt_growth_wow_pct,float64,"(현재값 / 비교일값 - 1)×100 (%); dod=1일 전, wow=7일 전; 미관측/0분모=결측"
+scrnCnt_growth_wow_pct,float64,"(현재값 / 비교일값 - 1)×100 (%); dod=1일 전, wow=7일 전; 미관측/0분모=결측"
+showCnt_growth_wow_pct,float64,"(현재값 / 비교일값 - 1)×100 (%); dod=1일 전, wow=7일 전; 미관측/0분모=결측"
+audience_per_screen_growth_wow_pct,float64,"(현재값 / 비교일값 - 1)×100 (%); dod=1일 전, wow=7일 전; 미관측/0분모=결측"
+audience_per_show_growth_wow_pct,float64,"(현재값 / 비교일값 - 1)×100 (%); dod=1일 전, wow=7일 전; 미관측/0분모=결측"
+top10_audience_share_pct,float64,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+top10_days,int64,이번 14일 TOP10 관측일수
+rank_and_audience_rebound,bool,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+rebound_candidate,bool,전주 관객·순위·상영횟수당 관객 동시 개선 및 개봉 7일 이후
+post_open_wow,bool,개봉 7일 이후+정확한 전주 관객 비교 가능
+holiday_name,object,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+is_holiday,bool,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+holiday_calendar_verified,bool,현재와 7일 전이 공식 공휴일 확인 범위 안인지
+holiday_mismatch_wow,bool,현재와 정확히 7일 전의 공휴일 여부가 다른지
+holiday_robust_candidate,bool,기본 후보 중 확인된 공휴일 여부가 같은 비교만 포함
+audience_rebound,bool,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+efficiency_improved,bool,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+rank_improved,bool,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+holiday_comparable,bool,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
+average_sales_per_audience,float64,원자료 또는 수집 영화 특성; source_manifest.json 및 코드 참조
