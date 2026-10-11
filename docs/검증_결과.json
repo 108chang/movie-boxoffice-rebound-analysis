@@ -1,0 +1,19 @@
+{
+  "raw_rows": 140,
+  "films": 17,
+  "lag_pair_checks": 170,
+  "wow_pairs": 52,
+  "eligible_pairs": 50,
+  "holiday_same_pairs": 28,
+  "holiday_same_dates": {
+    "2026-09-30": 7,
+    "2026-10-03": 7,
+    "2026-10-04": 7,
+    "2026-10-06": 7
+  },
+  "holiday_same_holiday_rows": 7,
+  "audience_positive": 6,
+  "efficiency_positive": 12,
+  "sensitivity_checks": 48,
+  "hash_checks": 20
+}
