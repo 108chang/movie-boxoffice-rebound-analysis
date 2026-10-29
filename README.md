@@ -1,5 +1,9 @@
 # 영화 관객 증가와 상영 규모 분석
 
+![분석 대시보드 화면](docs/dashboard-preview.png)
+
+*저장소에 포함된 대시보드 화면입니다. 상세 차트는 아래 HTML 파일을 내려받아 확인할 수 있습니다.*
+
 [분석 결과 대시보드 열기](https://108chang.github.io/movie-boxoffice-rebound-analysis/dashboard.html) · [HTML 파일 다운로드](dashboard.html)
 
 대시보드에서 집계 지표를 비교하고 차트의 원본 집계표를 확인할 수 있습니다. HTML 파일은 다운로드한 뒤 브라우저에서도 열 수 있습니다.
